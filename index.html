@@ -1,269 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Discord Token Login</title>
-
-<link rel="icon" href="https://cdn.discordapp.com/avatars/992422120007139469/5096fb2681b1b028b28fbf41fcc8ad33.webp">
-
-<style>
-
-*{
-box-sizing:border-box;
-margin:0;
-padding:0;
-}
-
-body{
-font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-background:#0f1115;
-color:white;
-line-height:1.6;
-}
-
-a{
-text-decoration:none;
-color:inherit;
-}
-
-.container{
-max-width:1100px;
-margin:auto;
-padding:40px 20px;
-}
-
-/* HERO */
-
-.hero{
-text-align:center;
-padding:90px 20px 80px 20px;
-}
-
-.avatar{
-width:120px;
-height:120px;
-border-radius:50%;
-margin-bottom:20px;
-box-shadow:0 10px 40px rgba(0,0,0,0.5);
-}
-
-h1{
-font-size:40px;
-margin-bottom:10px;
-}
-
-.subtitle{
-color:#b5bac1;
-font-size:18px;
-margin-bottom:30px;
-}
-
-.install-btn{
-display:inline-block;
-background:#5865F2;
-padding:14px 26px;
-border-radius:8px;
-font-weight:600;
-transition:0.2s;
-}
-
-.install-btn:hover{
-background:#4752c4;
-}
-
-/* FEATURES */
-
-.features{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
-gap:25px;
-margin-top:60px;
-}
-
-.feature{
-background:#1e1f22;
-padding:25px;
-border-radius:10px;
-border:1px solid #2b2d31;
-}
-
-.feature h3{
-margin-bottom:10px;
-font-size:18px;
-}
-
-.feature p{
-color:#b5bac1;
-font-size:14px;
-}
-
-/* HOW IT WORKS */
-
-.how{
-margin-top:90px;
-text-align:center;
-}
-
-.steps{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-gap:30px;
-margin-top:40px;
-}
-
-.step{
-background:#1e1f22;
-padding:25px;
-border-radius:10px;
-border:1px solid #2b2d31;
-}
-
-.step-number{
-font-size:28px;
-color:#5865F2;
-margin-bottom:10px;
-}
-
-/* ABOUT */
-
-.about{
-margin-top:100px;
-text-align:center;
-}
-
-.about img{
-width:70px;
-border-radius:50%;
-margin-bottom:12px;
-}
-
-/* FOOTER */
-
-footer{
-margin-top:80px;
-padding:30px;
-border-top:1px solid #2b2d31;
-text-align:center;
-color:#8e9297;
-font-size:14px;
-}
-
-footer a{
-color:#5865F2;
-}
-
-</style>
-</head>
-
-
-<body>
-
-<div class="hero">
-
-<img class="avatar" src="https://cdn.discordapp.com/avatars/992422120007139469/5096fb2681b1b028b28fbf41fcc8ad33.webp?size=1024">
-
-<h1>Discord Token Login</h1>
-
-<p class="subtitle">
-Login to Discord instantly using a token.<br>
-Fast, simple, and lightweight.
-</p>
-
-<a class="install-btn" href="#">
-Install on Chrome
-</a>
-
-</div>
-
-
-<div class="container">
-
-<div class="features">
-
-<div class="feature">
-<h3>⚡ Instant Login</h3>
-<p>
-Quickly access your Discord account using a token without going through the standard login process.
-</p>
-</div>
-
-<div class="feature">
-<h3>🔒 Local Processing</h3>
-<p>
-All operations run locally in your browser. The extension does not collect or transmit your data.
-</p>
-</div>
-
-<div class="feature">
-<h3>🚀 Lightweight</h3>
-<p>
-Minimal interface designed for speed and simplicity. No unnecessary features or trackers.
-</p>
-</div>
-
-<div class="feature">
-<h3>🧩 Chrome Extension</h3>
-<p>
-Works directly inside your browser with a simple popup interface for quick token login.
-</p>
-</div>
-
-</div>
-
-
-
-<div class="how">
-
-<h2>How It Works</h2>
-
-<div class="steps">
-
-<div class="step">
-<div class="step-number">1</div>
-<p>Install the extension from the Chrome Web Store.</p>
-</div>
-
-<div class="step">
-<div class="step-number">2</div>
-<p>Paste your Discord token inside the extension popup.</p>
-</div>
-
-<div class="step">
-<div class="step-number">3</div>
-<p>Click connect and access the account instantly.</p>
-</div>
-
-</div>
-
-</div>
-
-
-
-<div class="about">
-
-<img src="https://cdn.discordapp.com/avatars/992422120007139469/5096fb2681b1b028b28fbf41fcc8ad33.webp">
-
-<p>Developed by <strong>this_is_some1</strong></p>
-
-</div>
-
-</div>
-
-
-<footer>
-
-<p>
-© 2026 Discord Token Login
-</p>
-
-<p>
-<a href="privacy.html">Privacy Policy</a>
-</p>
-
-</footer>
-
-
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Token Login</title>
+    <link rel="icon" href="https://cdn.discordapp.com/avatars/992422120007139469/5096fb2681b1b028b28fbf41fcc8ad33.webp">
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        background: #0f1115;
+        color: white;
+        line-height: 1.6;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .container {
+        max-width: 1100px;
+        margin: auto;
+        padding: 40px 20px;
+      }
+
+      /* HERO */
+      .hero {
+        text-align: center;
+        padding: 90px 20px 80px 20px;
+      }
+
+      .avatar {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+      }
+
+      h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+      }
+
+      .subtitle {
+        color: #b5bac1;
+        font-size: 18px;
+        margin-bottom: 30px;
+      }
+
+      .install-btn {
+        display: inline-block;
+        background: #5865F2;
+        padding: 14px 26px;
+        border-radius: 8px;
+        font-weight: 600;
+        transition: 0.2s;
+      }
+
+      .install-btn:hover {
+        background: #4752c4;
+      }
+
+      /* FEATURES */
+      .features {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 25px;
+        margin-top: 60px;
+      }
+
+      .feature {
+        background: #1e1f22;
+        padding: 25px;
+        border-radius: 10px;
+        border: 1px solid #2b2d31;
+      }
+
+      .feature h3 {
+        margin-bottom: 10px;
+        font-size: 18px;
+      }
+
+      .feature p {
+        color: #b5bac1;
+        font-size: 14px;
+      }
+
+      /* HOW IT WORKS */
+      .how {
+        margin-top: 90px;
+        text-align: center;
+      }
+
+      .steps {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 30px;
+        margin-top: 40px;
+      }
+
+      .step {
+        background: #1e1f22;
+        padding: 25px;
+        border-radius: 10px;
+        border: 1px solid #2b2d31;
+      }
+
+      .step-number {
+        font-size: 28px;
+        color: #5865F2;
+        margin-bottom: 10px;
+      }
+
+      /* ABOUT */
+      .about {
+        margin-top: 100px;
+        text-align: center;
+      }
+
+      .about img {
+        width: 70px;
+        border-radius: 50%;
+        margin-bottom: 12px;
+      }
+
+      /* FOOTER */
+      footer {
+        margin-top: 80px;
+        padding: 30px;
+        border-top: 1px solid #2b2d31;
+        text-align: center;
+        color: #8e9297;
+        font-size: 14px;
+      }
+
+      footer a {
+        color: #5865F2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hero">
+      <img class="avatar" src="https://cdn.discordapp.com/avatars/992422120007139469/5096fb2681b1b028b28fbf41fcc8ad33.webp?size=1024">
+      <h1>Discord Token Login</h1>
+      <p class="subtitle"> Login to Discord instantly using a token. <br> Fast, simple, and lightweight. </p>
+      <a class="install-btn" href="#"> Install on Chrome </a>
+    </div>
+    <div class="container">
+      <div class="features">
+        <div class="feature">
+          <h3>⚡ Instant Login</h3>
+          <p> Quickly access your Discord account using a token without going through the standard login process. </p>
+        </div>
+        <div class="feature">
+          <h3>🔒 Local Processing</h3>
+          <p> All operations run locally in your browser. The extension does not collect or transmit your data. </p>
+        </div>
+        <div class="feature">
+          <h3>🚀 Lightweight</h3>
+          <p> Minimal interface designed for speed and simplicity. No unnecessary features or trackers. </p>
+        </div>
+        <div class="feature">
+          <h3>🧩 Chrome Extension</h3>
+          <p> Works directly inside your browser with a simple popup interface for quick token login. </p>
+        </div>
+      </div>
+      <div class="how">
+        <h2>How It Works</h2>
+        <div class="steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <p>Install the extension from the Chrome Web Store.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <p>Paste your Discord token inside the extension popup.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">3</div>
+            <p>Click connect and access the account instantly.</p>
+          </div>
+        </div>
+      </div>
+      <div class="about">
+        <img src="https://cdn.discordapp.com/avatars/992422120007139469/5096fb2681b1b028b28fbf41fcc8ad33.webp">
+        <p>Developed by <strong>this_is_some1</strong>
+        </p>
+      </div>
+    </div>
+    <footer>
+      <p> © 2026 Discord Token Login </p>
+      <p>
+        <a href="privacy-policy.html">Privacy Policy</a>
+      </p>
+    </footer>
+  </body>
 </html>
