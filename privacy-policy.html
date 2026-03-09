@@ -1,57 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Privacy Policy - Browser Utility Extension</title>
-<style>
-  body {
-    margin: 0; padding: 40px 20px;
-    background: #f4f6f8;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #222;
-    line-height: 1.6;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 40px 20px;
+  background: #f1f3f5;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #1f2933;
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 820px;
+  margin: auto;
+  background: #ffffff;
+  padding: 48px 56px;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.06);
+  border: 1px solid #e5e7eb;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  color: #111827;
+}
+
+h2 {
+  margin-top: 36px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #374151;
+}
+
+p {
+  margin: 14px 0;
+  color: #4b5563;
+}
+
+strong {
+  color: #111827;
+}
+
+code {
+  background: #f3f4f6;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.9em;
+}
+
+.footer {
+  margin-top: 48px;
+  padding-top: 20px;
+  border-top: 1px solid #e5e7eb;
+  font-size: 13px;
+  color: #9ca3af;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
   .container {
-    max-width: 800px;
-    margin: auto;
-    background: #fff;
-    padding: 40px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    padding: 32px 24px;
   }
-  h1 { margin-top: 0; font-size: 28px; }
-  h2 { margin-top: 30px; font-size: 20px; }
-  p { margin: 12px 0; }
-  .footer { margin-top: 40px; font-size: 14px; color: #666; }
-</style>
-</head>
-<body>
-<div class="container">
-  <h1>Privacy Policy</h1>
-  <p><strong>Last updated:</strong> 28 February 2026</p>
 
-  <h2>1. Overview</h2>
-  <p>This extension is designed to operate locally within the user's browser environment. It does not operate external servers and does not provide remote services.</p>
-
-  <h2>2. Information Collection</h2>
-  <p>The extension does not collect, store, transmit, or sell personal information. No browsing history, personal identifiers, or usage analytics are gathered by the developer.</p>
-
-  <h2>3. Local Processing</h2>
-  <p>Any data entered by the user is processed locally within the browser session. The extension does not permanently store user input and does not transmit it to external systems controlled by the developer.</p>
-
-  <h2>4. Third-Party Websites</h2>
-  <p>The extension may interact with third-party websites solely to perform its intended functionality within the browser. No data is shared with the developer or unrelated third parties.</p>
-
-  <h2>5. Data Security</h2>
-  <p>All processing occurs within the user's browser environment. The developer does not have access to user activity or information.</p>
-
-  <h2>6. Policy Updates</h2>
-  <p>This Privacy Policy may be updated if the extension’s functionality changes. Updates will be reflected on this page.</p>
-
-  <h2>7. Contact</h2>
-  <p>For privacy-related inquiries, please contact me on Discord: <code>this_is_some1</code></p>
-
-  <div class="footer">© 2026 Browser Utility Extension</div>
-</div>
-</body>
-</html>
+  h1 {
+    font-size: 26px;
+  }
+}
